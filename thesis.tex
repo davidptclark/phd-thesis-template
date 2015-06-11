@@ -1,0 +1,57 @@
+%-------------------------------------------------%
+% This is a very basic but effective thesis template
+% created by David Clark. By all means feel free to 
+% use and distribute this template to all who may need
+% it but only done so freely. The creator forbids 
+% commercial use and distribution for personal/private
+% gain.
+%--------------------------------------------------%
+%------------------------------------------------%
+% Declare document class, using 'twoside' option %
+%------------------------------------------------%
+% In document class, we can specify 'print' to present the print version, otherwise the electronic version will compile.
+\documentclass[10pt, twoside, print]{report}
+\input{packages.tex}
+\pagenumbering{gobble} % Turn page numbering off during front matter
+\pagestyle{headings}
+\begin{document}
+%--------------%
+% Front matter %
+%--------------%
+\input{Front/title}
+
+\input{Front/declaration}
+
+\input{Front/dedication}
+
+\input{Front/acknowledgements}
+\pagenumbering{roman}
+\input{Front/abstract}
+
+%-----------%
+% Main body %
+%-----------%
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+\listoftables
+\input{Main/introduction}
+\pagenumbering{arabic} % Turn page numbering on
+\input{Main/chapterone}
+
+
+%-------------%
+% Back Matter %
+%-------------%
+%-----------------------------------%
+% I've commented out the bibliography
+% but to activite it, simply uncomment
+% the commands and enter bib file name
+%-----------------------------------%
+
+\cleardoublepage
+%\addcontentsline{toc}{chapter}{Bibliography} % Add bibliography to table of contents
+%\bibliography{} % Input name of bibfile here
+%\bibliographystyle{chicago}
+%\input{Back/tables}
+\end{document}
