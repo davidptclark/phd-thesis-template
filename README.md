@@ -33,10 +33,17 @@ If you'd like to delve deeper into the files themselves, simply click on file in
      - [declaration.tex](Front/declaration.tex)
      - [dedication.tex](Front/dedication.tex)
      - [title.tex](Front/title.tex)
-   - [LICENSE](LICENSE)
    - __Main__
      - [chapterone.tex](Main/chapterone.tex)
      - [introduction.tex](Main/introduction.tex)
    - [packages.tex](packages.tex)
    - [thesis.pdf](thesis.pdf) :point_left: Have a look at the compiled PDF for a look at the barebones structure
    - [thesis.tex](thesis.tex)
+
+## :memo: Licencing 
+
+This thesis template uses the  [LPPL-1.3c License](https://www.latex-project.org/lppl/lppl-1-3c/).
+
+## :thought_balloon: Ideas? Comments?
+
+If you have any ideas or contributions, please feel free to fork this repo and submit pull requests. 👍
