@@ -24,7 +24,7 @@ If you'd like to delve deeper into the files themselves, simply click on file in
 
 ### :evergreen_tree: File tree overview :open_file_folder:
 
-- __phd\-thesis\-template__ (./Screenshots and README.md are removed to leave only files relevent to you)
+- __phd\-thesis\-template__ (./Screenshots and README.md are removed to leave only files relevant to you)
    - __Back__
      - [tables.tex](Back/tables.tex)
    - __Front__
